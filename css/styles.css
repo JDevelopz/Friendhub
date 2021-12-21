@@ -1,0 +1,289 @@
+/* MAIN COMPONENTS */
+
+body {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-family: Montserrat, sans-serif;
+  font-size: 5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: Montserrat-bold, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+p {
+  color: #4b4d4e;
+}
+
+em {
+  color: #fff;
+}
+
+a {
+color:inherit;}
+
+/* NAVBAR-SECTION */
+
+.navbar {
+  padding-bottom: 8rem;
+}
+@media screen and (max-width: 400px){
+  .navbar {
+    padding-bottom: 4rem;
+  }
+}
+
+.navbar-brand {
+  font-size: 1.6rem;
+}
+
+.nav-item {
+  padding: 0 1rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* TITLE-SECTION */
+
+#title {
+  background-color: #F05454;
+  color: #fff;
+  height: 59.5rem;
+}
+
+@media screen and (max-width: 1040px) {
+  #title {
+    height: 70rem;
+  }
+}
+@media screen and (max-width: 850px) {
+  #title {
+    height: 60rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  #title {
+    text-align: center;
+    height: 45rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  #title h1 {
+    font-size: 4rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  #title h1 {
+    font-size: 2.2rem;
+  }
+}
+
+.container-fluid {
+  padding: 3% 15% 3% 15%;
+}
+
+.fab {
+  margin: 0 0.6rem 0 0;
+}
+
+/* Download buttons */
+
+.down-btn {
+  margin: 3% 4% 0 0;
+}
+
+/* title image */
+
+.title-img {
+  width: 24rem;
+  height: auto;
+  margin-left: 7%;
+  padding: 0% 0 0 0;
+  transform: rotate(20deg);
+  position: absolute;
+}
+@media screen and (max-width: 1040px) {
+  .title-img {
+    position: relative;
+    width: 40%;
+    margin-left: 50%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .title-img {
+    position: relative;
+    width: 40%;
+    margin-left: 60%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .title-img {
+    position: relative;
+    text-align: center;
+    width: 50%;
+    margin-left: 0%;
+    padding-top: 1.8rem;
+    transform: rotate(0deg);
+  }
+}
+
+/* Features-SECTION*/
+
+#features {
+  background-color: #fff;
+  padding: 5rem 0 5rem 0;
+  position: relative;
+}
+
+.center-features {
+  text-align: center;
+}
+
+/* Icons color */
+
+.icon-red {
+  color: #FF7171;
+  padding-bottom: 1rem;
+}
+
+.icon-red:hover {
+  color: #F05454;
+}
+
+/* Testimonials-SECTION */
+
+#testimonials {
+  background-color: #FF7171;
+  text-align: center;
+}
+@media screen and (max-width: 500px) {
+  #testimonials {
+    padding-top: 5%;
+  }
+}
+
+#testimonials h2 {
+  font-size: 2.2rem;
+  color: white;
+  font-weight: bold;
+}
+@media screen and (max-width: 850px) {
+  #testimonials h2 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  #testimonials h2 {
+    font-size: 1.2rem;
+  }
+}
+
+#testimonials img {
+  width: 10%;
+  height: 50%;
+  border-radius: 100%;
+  margin: 1.2rem;
+}
+
+#testimonial-carousel {
+  padding: 6% 15%;
+}
+
+/* PRESS-SECTION */
+#press {
+  background-color: #FF7171;
+  text-align: center;
+  padding: 0 0 2% 0;
+}
+
+.press-logo {
+  width: 14%;
+  height: auto;
+  margin: 1rem 1rem 3rem 1rem;
+}
+
+/* Pricing-SECTION */
+#pricing {
+  text-align: center;
+  padding: 4% 15%;
+}
+@media screen and (max-width: 500px) {
+  #pricing {
+    padding: 10% 15%;
+  }
+}
+
+#pricing h2 {
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+@media screen and (max-width: 500px) {
+  #pricing h2 {
+    font-size: 1.8rem;
+  }
+}
+
+.pricing-row {
+  padding-top: 3%;
+}
+
+.pricing-col {
+  padding: 0 2%;
+}
+@media screen and (max-width: 500px) {
+  .pricing-col {
+    padding: 3% 2%;
+  }
+}
+/* call to action-SECTION  */
+
+#cta {
+  background-color: #F05454;
+  padding: 5% 15%;
+  text-align: center;
+}
+
+#cta h3 {
+  font-size: 3rem;
+  color: #fff;
+}
+@media screen and (max-width: 500px) {
+  #cta h3 {
+    font-size: 2rem;
+  }
+}
+
+.cta-btn {
+  margin: 3rem 1rem;
+}
+@media screen and (max-width: 500px) {
+  .cta-btn {
+    margin: 0.5rem 0.3rem;
+  }
+}
+
+/* Footer */
+
+#footer {
+  text-align: center;
+  padding-top: 5rem;
+}
+
+#footer p {
+  font-size: 0.5rem;
+}
+
+.socials {
+  display: inline-block;
+  text-decoration: none;
+}
