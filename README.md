@@ -4,4 +4,4 @@ Made with HTML5, Css + Bootstrap.
 
 Feel free to use on your own projects. 
 
-![alt text](https://github.com/JDevelopz/Friendshub/blob/images/Friendshub.png?raw=true)
+![Friendshub landing page](https://github.com/JDevelopz/Friendshub/blob/main/images/Friendshub.png?raw=true)
